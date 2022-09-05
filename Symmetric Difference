@@ -1,0 +1,9 @@
+M=int(input().strip())
+Y=set(map(int,input().strip().split()))
+N=int(input().strip())
+X=set(map(int,input().strip().split()))
+A=Y.difference(X)
+B=X.difference(Y)
+out=A.union(B)
+for i in sorted(list(out)):
+    print(i)
