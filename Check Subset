@@ -1,0 +1,6 @@
+for i in range(int(input())):
+    n=input()
+    A=set(map(int,input().split()))
+    x=input()
+    B=set(map(int,input().split()))
+    print((A&B)==A)
